@@ -105,3 +105,44 @@ a {
     color-scheme: dark;
   }
 }
+
+.container {
+  padding-top: 100px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+}
+
+.submit {
+  padding: 5px;
+}
+
+.answer {
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.author {
+  min-width: 50px; 
+  margin-right: 10px;
+}
+
+.author-ai {
+  color: #00ff00;
+}
+
+.author-human {
+  color: #c40bff;
+}
